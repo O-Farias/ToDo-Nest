@@ -1,0 +1,25 @@
+.container-main {
+  max-width: 600px;
+  width: 100%;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.list-group-item {
+  transition: background 0.2s ease-in-out;
+}
+
+.list-group-item:hover {
+  background: #f8f9fa;
+}
+
+.btn-edit {
+  margin-right: 10px;
+}
